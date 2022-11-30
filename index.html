@@ -29,56 +29,71 @@
     <main>
       <nav>
         <ul class="menu">
-          <h2 class="logo"><a href="#">snap</a></h2>
-          <li class="item has-submenu">
-            <a tabindex="0"
-              >Features<img src="./images/icon-arrow-down.svg" alt="" />
+          <h2 class="logo">
+            <a href="#">
+              <img src="./images/logo.svg" alt="snap logo" />
             </a>
-            <ul class="submenu">
-              <li class="subitem">
-                <a href="#"
-                  ><img src="./images/icon-todo.svg" alt="To do icon" /> Todo
-                  List</a
-                >
+          </h2>
+          <div class="container">
+            <div class="first-menu-part">
+              <li class="item has-submenu">
+                <a tabindex="0"
+                  >Features<img src="./images/icon-arrow-down.svg" alt="" />
+                </a>
+                <ul class="submenu">
+                  <li class="subitem">
+                    <a href="#"
+                      ><img src="./images/icon-todo.svg" alt="To do icon" />
+                      Todo List</a
+                    >
+                  </li>
+                  <li class="subitem">
+                    <a href="#"
+                      ><img
+                        src="./images/icon-calendar.svg"
+                        alt="Calendar icon"
+                      />
+                      Calendar</a
+                    >
+                  </li>
+                  <li class="subitem">
+                    <a href="#"
+                      ><img
+                        src="./images/icon-reminders.svg"
+                        alt="Reminders icon"
+                      />
+                      Reminders</a
+                    >
+                  </li>
+                  <li class="subitem">
+                    <a href="#"
+                      ><img
+                        src="./images/icon-planning.svg"
+                        alt="Planning icon"
+                      />
+                      Planning</a
+                    >
+                  </li>
+                </ul>
               </li>
-              <li class="subitem">
-                <a href="#"
-                  ><img src="./images/icon-calendar.svg" alt="Calendar icon" />
-                  Calendar</a
-                >
+              <li class="item has-submenu">
+                <a tabindex="0"
+                  >Company<img src="./images/icon-arrow-down.svg" alt=""
+                /></a>
+                <ul class="submenu">
+                  <li class="subitem"><a href="#">History</a></li>
+                  <li class="subitem"><a href="#">Our Team</a></li>
+                  <li class="subitem"><a href="#">Blog</a></li>
+                </ul>
               </li>
-              <li class="subitem">
-                <a href="#"
-                  ><img
-                    src="./images/icon-reminders.svg"
-                    alt="Reminders icon"
-                  />
-                  Reminders</a
-                >
-              </li>
-              <li class="subitem">
-                <a href="#"
-                  ><img src="./images/icon-planning.svg" alt="Planning icon" />
-                  Planning</a
-                >
-              </li>
-            </ul>
-          </li>
-          <li class="item has-submenu">
-            <a tabindex="0"
-              >Company<img src="./images/icon-arrow-down.svg" alt=""
-            /></a>
-            <ul class="submenu">
-              <li class="subitem"><a href="#">History</a></li>
-              <li class="subitem"><a href="#">Our Team</a></li>
-              <li class="subitem"><a href="#">Blog</a></li>
-            </ul>
-          </li>
-          <li class="item"><a href="#">Contact</a></li>
-          <li class="item"><a href="#">About</a></li>
-
-          <li class="item button"><a href="#">Log In</a></li>
-          <li class="item button secondary"><a href="#">Sign Up</a></li>
+              <li class="item"><a href="#">Contact</a></li>
+              <li class="item"><a href="#">About</a></li>
+            </div>
+            <div class="second-menu-part">
+              <li class="item button"><a href="#">Login</a></li>
+              <li class="item button secondary"><a href="#">Register</a></li>
+            </div>
+          </div>
           <li class="toggle">
             <a href="#"
               ><img src="./images/icon-menu.svg" alt="" class="hamburger"
@@ -88,21 +103,33 @@
       </nav>
 
       <img
-        class="main-pic"
+        class="mobile-main-pic"
         src="./images/image-hero-mobile.png"
         alt="standing guy working on his laptop"
       />
-      <h1>Make remote work</h1>
-      <p class="main-text">
-        Get your team in sync, no matter your location. Streamline processes,
-        create team rituals, and watch productivity soar.
-      </p>
-      <button class="learn-more">Learn more</button>
-      <div class="bottom-logos">
-        <img src="./images/client-databiz.svg" alt="databiz logo" />
-        <img src="./images/client-audiophile.svg" alt="audiophile logo" />
-        <img src="./images/client-meet.svg" alt="meet logo" />
-        <img src="./images/client-maker.svg" alt="maker logo" />
+      <div class="desktop-layout">
+        <img
+          src="./images/image-hero-desktop.png"
+          alt="standing guy working on his laptop"
+          class="desktop-main-pic"
+        />
+        <div class="desktop-left">
+          <h1>
+            <span class="make">Make </span>
+            remote work
+          </h1>
+          <p class="main-text">
+            Get your team in sync, no matter your location. Streamline
+            processes, create team rituals, and watch productivity soar.
+          </p>
+          <button class="learn-more">Learn more</button>
+          <div class="bottom-logos">
+            <img src="./images/client-databiz.svg" alt="databiz logo" />
+            <img src="./images/client-audiophile.svg" alt="audiophile logo" />
+            <img src="./images/client-meet.svg" alt="meet logo" />
+            <img src="./images/client-maker.svg" alt="maker logo" />
+          </div>
+        </div>
       </div>
     </main>
     <div class="attribution">

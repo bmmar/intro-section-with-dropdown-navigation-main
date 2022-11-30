@@ -1,5 +1,5 @@
 const toggle = document.querySelector(".toggle");
-const menu = document.querySelector(".menu");
+const menu = document.querySelector(".container");
 
 /* Toggle mobile menu */
 function toggleMenu() {
@@ -7,12 +7,12 @@ function toggleMenu() {
     menu.classList.remove("active");
 
     // adds the menu (hamburger) icon
-    toggle.querySelector("a").innerHTML = "<img src='./images/icon-menu.svg' alt='' class='hamburger'>";
+    toggle.querySelector("a").innerHTML = "<img src='./images/icon-menu.svg' alt='hamburger' class='hamburger'>";
   } else {
     menu.classList.add("active");
 
     // adds the close (x) icon
-    toggle.querySelector("a").innerHTML = "<i class='fas fa-times'></i>";
+    toggle.querySelector("a").innerHTML = "<img src='./images/icon-close-menu.svg' alt='X to close dropdown menu' class='closeX'>";
   }
 }
 
